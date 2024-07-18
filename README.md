@@ -1,38 +1,27 @@
-# Portfolio-Angular
-¡Bienvenido a mi portafolio personal! Este proyecto ha sido desarrollado utilizando Angular, una plataforma robusta para la construcción de aplicaciones web dinámicas y modernas. Aquí podrás encontrar una muestra de mis habilidades, proyectos y experiencia profesional.
+# AngularPortfolio
 
-Características
-Página de Inicio: Una introducción breve y concisa sobre quién soy y qué hago.
-Acerca de Mí: Una sección detallada que incluye mi formación, experiencia laboral, y habilidades técnicas.
-Proyectos: Una galería interactiva que muestra los proyectos más destacados en los que he trabajado, con descripciones detalladas y enlaces a los repositorios de GitHub o demostraciones en vivo.
-Contacto: Un formulario de contacto funcional que permite a los visitantes enviarme mensajes directamente.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
 
+## Development server
 
-Tecnologías Utilizadas
-Angular: Framework principal para la construcción del front-end.
-HTML5 & CSS3: Para la estructura y el diseño del sitio.
-TypeScript: Para una programación tipada y más robusta.
-Bootstrap: Para un diseño responsive y estilizado.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Cómo Ejecutar el Proyecto
-Clonar el Repositorio:
+## Code scaffolding
 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## Build
 
-git clone https://github.com/tuusuario/mi-portafolio.git
-cd mi-portafolio
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-Instalar Dependencias:
+## Running unit tests
 
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-npm install
+## Running end-to-end tests
 
-Ejecutar el Servidor de Desarrollo:
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+## Further help
 
-
-ng serve
-
-Abrir en el Navegador:
-
-Navega a http://localhost:4200/ para ver el portafolio en acción.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

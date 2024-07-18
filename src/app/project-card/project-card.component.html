@@ -1,0 +1,17 @@
+<div class="card shadow text-center" style="max-width:350px">
+
+    <div class="card-body">
+        <h2 class="card-title">{{project.name}}</h2>
+        <p class="card-text">{{project.summary}}</p>
+        <button class="btn btn-primary" (click)="OpenProjectModal()">Ver más</button>
+    </div>
+
+    <div class="card-footer">
+        <div class="d-flex flex-wrap justify-content-center">
+            @for (tag of project.tags; track $index) {
+            <div class="tag me-2 mb-1" [style.background-color]="tag.color">{{tag}}</div>
+        }
+            
+        </div>
+    </div>
+</div>
